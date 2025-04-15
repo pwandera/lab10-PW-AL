@@ -1,3 +1,7 @@
+# https://github.com/pwandera/lab10-PW-AL.git
+# Partner 1: Paul Wandera
+# Partner 2: Angel Lopez-Santiago
+
 import unittest
 from calculator import *
 
