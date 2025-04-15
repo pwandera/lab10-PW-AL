@@ -28,7 +28,7 @@ class TestCalculator(unittest.TestCase):
          with self.assertRaises(ZeroDivisionError):
              div(0,1)
 
-         self.assertEqual(div(10, -10), -100)
+         self.assertEqual(div(10, -10), -1)
          self.assertAlmostEqual(div(2.5, 5), 2)
 
 
