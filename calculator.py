@@ -7,7 +7,9 @@ def subtract(a,b):
     return a - b
 
 def logarithm(a,b):
-    if b <= 0 or a <=0 or a == 1:
+
+    if b <= 0 or a <= 0 or a == 1:
+
         raise ValueError
     else:
         return math.log(b,a)
